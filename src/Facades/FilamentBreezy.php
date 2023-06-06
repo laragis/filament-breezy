@@ -11,6 +11,6 @@ class FilamentBreezy extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'filament-breezy';
+        return \JeffGreco13\FilamentBreezy\FilamentBreezy::class;
     }
 }
